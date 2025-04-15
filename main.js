@@ -5,13 +5,13 @@ function CheckOrder() {
 
 	switch (order) {
 		case "B": 
-			document.getElementById("result").innerHTML = "Your order of a Burger has been processed. Thank you for ordering!";
+			document.getElementById("result").innerHTML = "Your order of a Burger has been processed!";
 			break;  
 		case "F": 
-			document.getElementById("result").innerHTML = "Your order of Fries has been processed. Thank you for ordering!";
+			document.getElementById("result").innerHTML = "Your order of Fries has been processed!";
 			break;
 		case "S": 
-			document.getElementById("result").innerHTML = "Your order of Soda has been processed. Thank you for ordering!";
+			document.getElementById("result").innerHTML = "Your order of Soda has been processed!";
 			break;
 		default:
 			document.getElementById("result").innerHTML = "Please input a valid order";
